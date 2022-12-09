@@ -1,6 +1,6 @@
 # Analyse d'Image
 
-## Partie 1 :
+## Partie 1 : Basic Image processing operation
 
 ```
 python3 -m venv env_analyse_image
@@ -9,7 +9,7 @@ pip install -r requirement.txt
 jupyter-notebook
 ```
 
-## Partie 2 :
+## Partie 2 : Background removal
 ### Models dynamique
 ```
 python3 src/backgroundremovalatd.py
@@ -19,7 +19,7 @@ python3 src/backgroundremovalatd.py
 python3 src/backRemovalImageSub.py
 ```
 
-## Partie 3 :
+## Partie 3 : Region growing
 ```
 python3 src/main.py
 ```
